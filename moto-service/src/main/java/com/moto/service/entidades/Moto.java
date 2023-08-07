@@ -13,7 +13,6 @@ public class Moto {
 
 	private String marca;
 	private String modelo;
-	private int anios;
 	private int usuarioId;
 
 	public int getId() {
@@ -40,14 +39,6 @@ public class Moto {
 		this.modelo = modelo;
 	}
 
-	public int getAnios() {
-		return anios;
-	}
-
-	public void setAnios(int anios) {
-		this.anios = anios;
-	}
-
 	public int getUsuarioId() {
 		return usuarioId;
 	}
@@ -59,5 +50,4 @@ public class Moto {
 	public Moto() {
 		super();
 	}
-
 }

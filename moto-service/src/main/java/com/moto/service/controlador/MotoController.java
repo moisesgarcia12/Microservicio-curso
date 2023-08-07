@@ -18,10 +18,8 @@ import com.moto.service.servicio.MotoService;
 @RestController
 @RequestMapping("/moto")
 public class MotoController {
-
 	@Autowired
 	private MotoService motoService;
-	
 	
 	@GetMapping
 	public ResponseEntity<List<Moto>> listarMotos(){
